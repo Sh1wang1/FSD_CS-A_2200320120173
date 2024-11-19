@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: large;
+                }
+        .container{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .header{
+            background-color: aquamarine;
+            width: 100%;
+            height: 10vh;
+            border: 1px solid rgb(234, 9, 9);
+            text-align: center;
+        }
+        .nav{
+            background-color: rgb(8, 109, 249);
+            width: 100%;
+            height: 10vh;
+            border: 1px solid rgb(234, 9, 9);
+            text-align: center;
+        }
+        .right{
+            background-color: rgb(8, 249, 153);
+            width: 70%;
+            height: 70vh;
+            border: 1px solid rgb(234, 9, 9);
+            text-align: center;
+        }
+        .link{
+            background-color: rgb(137, 160, 194);
+            width: 30%;
+            height: 70vh;
+            border: 1px solid rgb(234, 9, 9);
+            text-align: center;
+        }
+
+        .footer{
+            background-color: rgb(78, 238, 15);
+            width: 100%;
+            height: 10vh;
+            border: 1px solid rgb(234, 9, 9);
+            text-align: center;
+        }
+        div>a{
+            color: white;
+            font-size: medium;
+            float: left;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="header">Header</div>
+    <div class="nav">
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Login</a>
+        <a href="#" style="float:right">Sign out</a>
+
+
+    </div>
+    <div class="link">Link</div>
+    <div class="right">Home</div>
+    <div class="footer">Design and Developed by &copy; priyanka</div>
+   </div>
+</body>
+</html>
