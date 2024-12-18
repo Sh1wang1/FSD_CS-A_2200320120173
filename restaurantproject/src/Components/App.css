@@ -1,0 +1,14 @@
+nav{
+    background-color: gold;
+    width:100vw;
+    height:10vh;
+}
+nav ul{
+    list-style-type:none;
+    display: flex;
+    justify-content:space-evenly;
+  
+}
+li a{
+    text-decoration: none;
+}
